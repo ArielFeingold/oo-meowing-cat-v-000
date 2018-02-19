@@ -1,8 +1,7 @@
 ## code your solution here.
 class Cat
   def initalize(name)
-    attr_writer :name
-    attr_reader :name
+    attr_accessor :name
   end
 
   def meow
