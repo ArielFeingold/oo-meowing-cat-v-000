@@ -1,6 +1,6 @@
 ## code your solution here.
 class Cat
-  def name(name)
+  def initialize(cat)
     attr_accessor(:name)
   end
 
